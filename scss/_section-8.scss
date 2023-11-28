@@ -1,0 +1,114 @@
+.section-8__wrapper h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section-8 {
+  margin-top: 80px;
+}
+.section-8__list {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.section-8__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5.988px;
+
+  /* Shadow2 */
+  box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
+  width: 390.49px;
+  height: 371.494px;
+  flex-shrink: 0;
+}
+.section-8__list-item h4 {
+  margin-top: 20px;
+  color: var(--Gray-1, #333);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136.5%; /* 27.3px */
+}
+.section-8__list-item p {
+  margin: 10px 0 15px 0;
+  color: #09b451;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16.766px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136.5%; /* 22.885px */
+}
+.section-8__list-item .ssdfg {
+  color: var(--Gray-1, #333);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  max-width: 280px;
+}
+@media screen and (max-width: 767px) {
+  .section-8__wrapper h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .section-8__list {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .section-8__list-item {
+    width: 182px;
+    height: 173.146px;
+    flex-shrink: 0;
+  }
+  .section-8__list-item img {
+    width: 53.124px;
+    height: 53.124px;
+    flex-shrink: 0;
+  }
+  .section-8__list-item h4 {
+    margin-top: 15px;
+    color: var(--Gray-1, #333);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.5%; /* 16.38px */
+  }
+  .section-8__list-item p {
+    margin: 5px 0 10px;
+    color: #09b451;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 7.457px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136.5%; /* 10.179px */
+  }
+  .section-8__list-item .ssdfg {
+    color: var(--Gray-1, #333);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+  }
+}

@@ -1,0 +1,122 @@
+.section-7 {
+  margin-top: 150px;
+}
+.section-7__wrapper h3 {
+  text-align: center;
+  color: var(--pri1_1, #242243);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.section-7__list-item-1 h2 {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+  width: 382px;
+}
+.section-7__list-item-1-info {
+  display: flex;
+  gap: 50px;
+}
+.section-7__list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.section-7__list-item-2__img {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.sdds {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.section-7__list-item-2 .dsadd {
+  color: var(--gray1, #333);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  max-width: 384px;
+
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+.wwww {
+  color: #09b451;
+  font-family: Open Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 767px) {
+  .section-7__wrapper h3 {
+    display: none;
+  }
+  .section-7__list-item-1 h3 {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+    width: 252px;
+  }
+  .section-7__list {
+    flex-direction: column;
+  }
+  .sdds h4 {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .sdds p {
+    color: #09b451;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .section-7__list-item-2__img img {
+    width: 28px;
+    height: 28px;
+  }
+   .dsadd {
+    color: var(--gray1, #333);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+  }
+  .section-7__fdfd{
+    display: flex;
+    gap: 40px;
+  }
+
+}
+.section-7__list-item-1 {
+    background-image: url(../images/Vector\ 19.svg);
+    background-repeat: no-repeat;
+   background-position: center 120px;
+}

@@ -1,0 +1,26 @@
+.section-5__wrapper h3 {
+  color: var(--Gray-1, #333);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 767px) {
+  .section-5__wrapper h3 {
+    color: var(--Gray-1, #333);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
+.section-5{
+    margin-top: 70px;
+}
+.section-4__list{
+    justify-content: center;
+}

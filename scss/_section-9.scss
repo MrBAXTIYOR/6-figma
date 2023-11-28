@@ -1,0 +1,113 @@
+.section-9 {
+  margin-top: 150px;
+  background-image: url(../images/section-9__bg.png), url(../images/back.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #000000ad;
+}
+
+.section-9__wrapper {
+  display: flex;
+  gap: 120px;
+}
+.section-9__info h3 {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.section-9__info p {
+  margin-top: 24px;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.section-9__info {
+  max-width: 568px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.section-9__button {
+  display: flex;
+  gap: 40px;
+  margin-top: 90px;
+}
+.section-9__button-info-1 {
+  display: flex;
+  padding: 20px 42px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+  background: #09b451;
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  border: none;
+}
+.section-9__button-info-2 {
+  display: flex;
+  padding: 20px 42px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #09b451;
+  background: #e7faef;
+  color: #09b451;
+
+  /* Button text */
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  border: none;
+}
+.section-9__img {
+  margin-top: -70px;
+}
+@media screen and (max-width: 767px) {
+  .section-9 {
+    height: 639px;
+  }
+  .section-9__info{
+    margin-top: 150px;
+  }
+  .section-9__img {
+    display: none;
+  }
+  .section-9__info h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 158.333% */
+    text-transform: capitalize;
+  }
+  .section-9__info p {
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .section-9__button{
+    margin-top: 60px;
+  }
+}
