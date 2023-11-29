@@ -1,0 +1,130 @@
+.footer__info {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 296px;
+  justify-content: center;
+  gap: 30px;
+}
+.footer__info .footer_-info {
+  width: 132px;
+}
+.footer__info-2 {
+  width: 158px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 587px;
+  flex-shrink: 0;
+  background: #000;
+}
+.footer__info p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+.footer__list {
+  display: flex;
+  gap: 80px;
+}
+.footer__list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer__list-item p {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.571% */
+  text-transform: capitalize;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 120px;
+  margin-bottom: 0px;
+}
+.footer h3 {
+  color: white;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+.footer input {
+  margin-top: 25px;
+  margin-left: 420px;
+  width: 545px;
+  height: 52px;
+  flex-shrink: 0;
+  background: #fff;
+  color: #3bd27b;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer__bottom button {
+  margin-left: -130px;
+  width: 126px;
+  height: 52px;
+  flex-shrink: 0;
+  background: var(--pri2_3, rgba(10, 199, 90, 0.8));
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__bottom {
+  margin-top: -130px;
+}
+@media screen and (max-width: 767px) {
+  .sssdd {
+    display: none;
+  }
+  .footer__list {
+    gap: 25px;
+  }
+  .footer__info p {
+    display: none;
+  }
+  .footer {
+    height: 600px;
+  }
+  .footer__bottom input {
+    width: 380px;
+    height: 36.066px;
+    flex-shrink: 0;
+    margin-left: 5px;
+  }
+  .footer__bottom button {
+    margin-left: -92px;
+    width: 87.853px;
+    height: 36.066px;
+    flex-shrink: 0;
+    background: var(--pri2_3, rgba(10, 199, 90, 0.8));
+  }
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
